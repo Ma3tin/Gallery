@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/lightgallery.js/dist/css/lightgallery.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+</head>
+<body>
+
+<nav class="navigace">
+    <h1>Galerie</h1>
+</nav>
+<div id="lightgallery">
+    <a href="1-1600.jpg">
+        <img src="1-1600.jpg"/>
+        <p>Obrázek #1 <i class="fas fa-images"></i></p>
+    </a>
+    <a href="2-1600.jpg">
+        <img src="2-1600.jpg"/>
+        <p>Obrázek #2 <i class="fas fa-images"></i></p>
+    </a>
+    <a href="4-1600.jpg">
+        <img src="4-1600.jpg"/>
+        <p>Obrázek #3 <i class="fas fa-images"></i></p>
+    </a>
+    <a href="13-1600.jpg">
+        <img src="13-1600.jpg"/>
+        <p>Obrázek #4 <i class="fas fa-images"></i></p>
+    </a>
+    <a href="13-1600.jpg">
+        <img src="13-1600.jpg"/>
+        <p>Obrázek #5 <i class="fas fa-images"></i></p>
+    </a>
+</div>
+<script src="node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script>
+<script src="node_modules/lightgallery.js/src/js/lg-utils.js"></script>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'));
+</script>
+</body>
+</html>
